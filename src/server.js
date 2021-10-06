@@ -7,7 +7,7 @@ const init = async () => {
   const notesService = new NotesService();
   const server = Hapi.server({
     port: 5000,
-    host: process.env.NODE_ENV !== 'production' ? 'localhost' : '122.248.210.158',
+    host: process.env.NODE_ENV !== 'production' ? 'localhost' : '172.31.47.249',
     routes: {
       cors: {
         origin: ['*'],
